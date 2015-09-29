@@ -2,6 +2,8 @@
 ###快速实现APP中的设置界面效果
 ###测试环境：Xcode 7.0，iOS 7.0 以上
 
+[!image]("http://d.pcs.baidu.com/thumbnail/edc8162d27894e168271210e0e159263?fid=2013816970-250528-435248297110746&time=1443499200&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-GNzMfEdklOebWB7hjOmRyENWhzM%3D&rt=sh&expires=2h&r=377881322&sharesign=unknown&size=c710_u500&quality=100")
+
 ####集成步骤：
 ######0、把TableViewSettingList文件夹拽入自己项目中
 ######1、新建一个UITableViewController继承自CFSettingTableViewController
