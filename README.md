@@ -11,18 +11,21 @@
 ######1、新建一个UITableViewController继承自CFSettingTableViewController
 ######2、相关代码
 
- // cell箭头名称
-    self.icon_arrow = @"CellArrow";
+// cell箭头名称
+self.icon_arrow = @"CellArrow";
     
-//    //设置相关参数
-//    //cell背景颜色
-//    self.backgroundColor_Normal = [UIColor whiteColor];
-//    //cell选中背景颜色
-//    self.backgroundColor_Selected = CFCellBackgroundColor_Highlighted;
-//    //cell右边Label字体
-//    self.rightLabelFont = [UIFont systemFontOfSize:15];
-//    //cell右边Label文字颜色
-//    self.rightLabelFontColor = CFRightLabelTextColor;
+//设置相关参数
+//cell背景颜色
+self.backgroundColor_Normal = [UIColor whiteColor];
+
+//cell选中背景颜色
+self.backgroundColor_Selected = CFCellBackgroundColor_Highlighted;
+
+//cell右边Label字体
+self.rightLabelFont = [UIFont systemFontOfSize:15];
+
+//cell右边Label文字颜色
+self.rightLabelFontColor = CFRightLabelTextColor;
     
     
     CFSettingArrowItem *item1 =[CFSettingArrowItem itemWithIcon:@"icon1" title:@"朋友圈" destVcClass:[Item1ViewController class]];
