@@ -1,15 +1,15 @@
 # TableViewSettingList
-###快速实现APP中的设置界面效果
-###测试环境：Xcode 7.0，iOS 7.0 以上
+### 快速实现APP中的设置界面效果
+### 测试环境：Xcode 7.0，iOS 7.0 以上
 
 ![image](http://cdn.cocimg.com/bbs/attachment/Fid_19/19_332211_cb7c79b31692752.png)
 ![image](http://cdn.cocimg.com/bbs/attachment/Fid_19/19_332211_550ce9a4925a741.png)
 
 
-####集成步骤：
-######0、把TableViewSettingList文件夹拽入自己项目中
-######1、新建一个UITableViewController继承自CFSettingTableViewController
-######2、相关代码
+### 集成步骤：
+###### 0、把TableViewSettingList文件夹拽入自己项目中
+###### 1、新建一个UITableViewController继承自CFSettingTableViewController
+###### 2、相关代码
 
 // cell箭头名称
 self.icon_arrow = @"CellArrow";
