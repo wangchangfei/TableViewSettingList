@@ -7,10 +7,14 @@
 
 
 ### 集成步骤：
+
 ###### 0、把TableViewSettingList文件夹拽入自己项目中
+
 ###### 1、新建一个UITableViewController继承自CFSettingTableViewController
+
 ###### 2、相关代码
 
+```swift
 // cell箭头名称
 self.icon_arrow = @"CellArrow";
     
@@ -94,3 +98,4 @@ self.rightLabelFontColor = CFRightLabelTextColor;
     [self.dataList addObject:group5];
     [self.dataList addObject:group6];
     
+```
